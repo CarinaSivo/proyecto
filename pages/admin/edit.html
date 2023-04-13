@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Crear nuevo item | Funkoshop</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="./boot-css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/index.css">
+    </head>
+
+    <body>
+        <!--Incio Header-->
+        <header>
+                 
+            <nav class="nav">
+                <picture class="logo">
+                    <a href="../../Index.html">
+                        <img src="../../img/multimedia/branding/logo_light_horizontal.svg" alt="logo de mi sitio web" id="logo">
+                    </a>
+                </picture>
+                
+
+                <ul class="menu">
+                    
+                     <li class="menuitemsalir"><a href="https://www.google.com" target="_blank">SALIR</a></li>
+                     
+                </ul>
+                </nav>
+
+        </header>   <!--Fin Header-->
+
+        <!--Incio Main-->
+        <main > 
+          <h1 class="display-5" style="margin-left:80px; font-weight: bold;"> CREAR NUEVO ITEM</h1>
+         
+              <label class="d-inline fs-3" style="margin-left:80px" id="floatingSelectGrid">Categoría</label>
+                <select class="d-inline orm-select"style="margin-left:20px; width:200px; color:grey" id="floatingSelectGrid">
+                  <option selected>Seleccionar...</option>
+                  <option value="1">Uno</option>
+                  <option value="2">Dos</option>
+                  <option value="3">Tres</option>
+                </select>       
+                <label class="d-inline fs-3" style="margin-left:80px" id="floatingSelectGrid">Licencia</label>
+                <select class="d-inline orm-select"style="margin-left:20px; width:200px; color:grey" id="floatingSelectGrid">
+                  <option  selected>Seleccionar...</option>
+                  <option value="1">Uno</option>
+                  <option value="2">Dos</option>
+                  <option value="3">Tres</option>
+                </select>   
+               
+                
+              <div class="col-12">
+                <label for="inputname" class="inline form-label fs-3" style="margin-left: 80px;">Nombre del Producto</label>
+                <input type="text" class="h2 pb-2 mb-4 border-0 border-bottom border-danger " style="margin-left: 80px;width: 15%">
+              </div>
+
+            <div class="form-floating">
+              <textarea class="form-control fs-3" style="margin-left:80px; height: 100px; width:670px" placeholder="Descripción del Producto" id="floatingTextarea2"></textarea>
+              <label class="fs-5" style="margin-left:80px; color:grey" for="floatingTextarea2">Descripción del producto</label>
+            </div>
+
+      
+
+              <div class="col-9">
+                  <label for="inputname" class="form-label fs-3" style="margin-left: 80px;">SKU</label>
+                  <input type="text" class="h2 pb-2 mb-4 border-0 border-bottom border-danger " style="margin-left: 20px;width: 100px">
+              
+                <label for="inputname" class="d-inline form-label fs-3" style="margin-left: 30px;">Precio</label>
+                <input type="text" class="d-inline h2 pb-2 mb-4 border-0 border-bottom border-danger " style="margin-left: 20px;width: 50px">
+             
+                <label for="inputname" class="d-inline form-label fs-3" style="margin-left: 30px;">Stock</label>
+                <input type="text" class="d-inline h2 pb-2 mb-4 border-0 border-bottom border-danger " style="margin-left: 20px;width: 50px">
+              </div>
+              
+
+
+              <div class="col-6">
+                <label for="inputname" class="d-inline form-label fs-3" style="margin-left: 80px;">Descuento</label>
+                <input type="text" class="d-inline h2 pb-2 mb-4 border-0 border-bottom border-danger " style="margin-left: 20px;width: 40px">
+                <label class="d-inline fs-3" style="margin-left:30px" id="floatingSelectGrid">Cuotas</label>
+                <select class="d-inline orm-select"style="margin-left:20px; width:200px; color:grey" id="floatingSelectGrid">
+                  <option  selected>3 cuotas sin interés</option>
+                  <option value="1">6 cuotas sin interés</option>
+                  <option value="2">9 cuotas sin interés</option>
+                  <option value="3">12 cuotas sin interés</option>
+                </select>   
+              </div>
+
+              <div class="col-9">
+                <p class="d-inline fs-3" style="margin-left: 80px">Imagenes:</p>
+                <button type="button" class="btn btn-outline-secondary d-inline p-1 fs-6" style="margin-left:5px; margin:0px;" >Elegir Archivos</button>
+                <p class="d-inline fs-6" style="margin-left: 10px;">No se ha seleccionado ningún archivo</p>
+              </div>
+                  
+              <div class="col-6">
+                 <button type="button" class="d-inline p-2 fs-5 btn btn-danger" style="margin:0px; margin-left:80px; ">Agregar Producto</button>
+                 <button type="button" class="d-inline p-2 fs-5 btn btn-danger" style="margin:0px; margin-left:30px">Limpiar</button>       
+                </div>
+          
+             
+            </form>
+
+        </main>  <!--Fin Main-->
+
+       
+        <!--Incio Footer-->
+        <footer>
+            <section class="pie">
+                <nav class="navfooter">
+                    <ul class="menufooter">
+                        <li><a href="../shop/shop.html">SHOP</a></li>
+                        <li><a href="../admin//registrarse.html">REGISTRARSE</a></li>
+                        <li><a href="../admin/login.html">LOGIN</a></li>
+                        <li><a href="../admin//contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                 
+                    <img class="logofooter" src="../img/multimedia//branding/isotype.svg" alt="logo " id="logofootter">
+                  
+            </section>
+            <section class="textofooter">
+                <p>All rights reserved 2023 - Funkoshop &copy;</p>
+            </section>
+        </footer> <!--Fin Footerr-->
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="./boot-js/bootstrap.bundle.min.js" async defer></script>
+    </body>
+</html>
